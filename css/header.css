@@ -3,12 +3,13 @@
   border: 1px solid red;
 } */
 .top-nav-header {
+  margin: 0 2px;
   /* border: 1px solid red; */
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .top-nav-header img {
@@ -104,6 +105,7 @@
 
   .search-container {
     /* border: 1px solid red; */
+    margin-right: 2px;
     background-color: rgba(82, 88, 110, 0.6);
   }
 
