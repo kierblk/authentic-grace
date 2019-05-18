@@ -5,6 +5,7 @@ See https://www.w3schools.com/cssref/pr_import_rule.asp for more details. */
 
 /* Needed for the hero header image in header.css */
 body, html {
+    margin: 0;
     height: 100%;
     font-family: 'Lato', sans-serif;
 }
