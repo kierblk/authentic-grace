@@ -1,4 +1,7 @@
 /* Parent flexbox for the top navigation bar in the header */
+/* div {
+  border: 1px solid red;
+} */
 .top-nav-header {
     height: 40px;
     display: flex;
@@ -18,16 +21,16 @@
     color: #FF6700;
 }
 
-.hero-image
-{
-    background-image: url("/images/blank-header.png");
-    
+.hero-image {
+  border: 1px solid red;
+    background-image: url("../images/blank-header.png");
+
     /* Set a specific height */
     height: 60%;
-    
+
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
@@ -67,7 +70,7 @@
     position: relative;
     display: flex;
   }
-  
+
   .searchTerm {
     width: 100%;
     border: 3px solid #F18F01 ;
@@ -78,11 +81,11 @@
     outline: none;
     color: #9DBFAF;
   }
-  
+
   .searchTerm:focus{
     color: #F18F01 ;
   }
-  
+
   .searchButton {
     width: 40px;
     height: 36px;
@@ -98,8 +101,8 @@
   .search-container {
     background-color: rgba(82, 88, 110, 0.6);
   }
-  
+
   /*Resize the wrap to see the search bar change!*/
-  .search-bar{
+  .search-bar {
     width: 30%;
   }
