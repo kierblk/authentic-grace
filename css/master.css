@@ -7,3 +7,12 @@ See https://www.w3schools.com/cssref/pr_import_rule.asp for more details. */
 body, html {
     height: 100%;
 }
+
+a:link, a:visited {
+    color: #FF6700;
+    cursor: pointer;
+}
+
+a:hover, a:active {
+    color: #F18F01;
+}
