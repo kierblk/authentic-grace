@@ -3,6 +3,7 @@
   border: 1px solid red;
 } */
 .top-nav-header {
+  /* border: 1px solid red; */
     height: 40px;
     display: flex;
     flex-direction: row;
@@ -11,7 +12,10 @@
 }
 
 .top-nav-header img {
-    object-fit: scale-down;
+  /* border: 1px solid red; */
+    /* object-fit: scale-down; */
+    height: 40px;
+
 }
 
 .login-signup {
@@ -22,9 +26,9 @@
 }
 
 .hero-image {
-  border: 1px solid red;
+  /* border: 1px solid red; */
     background-image: url("../images/blank-header.png");
-
+    z-index: -1;
     /* Set a specific height */
     height: 60%;
 
@@ -99,10 +103,13 @@
   }
 
   .search-container {
+    /* border: 1px solid red; */
     background-color: rgba(82, 88, 110, 0.6);
   }
 
   /*Resize the wrap to see the search bar change!*/
   .search-bar {
-    width: 30%;
+    float:right;
+    /* border: 1px solid red; */
+    width: 40%;
   }
