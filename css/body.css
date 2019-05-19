@@ -1,0 +1,10 @@
+.flex-container{
+  display:flex;
+  justify-content: center;
+}
+.flex-container img{
+  border: 1px solid red;
+  width: 30%;
+  height: 30%;
+  justify-content: space-around;
+}
