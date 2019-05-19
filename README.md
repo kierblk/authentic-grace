@@ -8,11 +8,13 @@ Authentic Grace website development repository. A collaboration project between 
 
 ## Site Color Palette
 
-* Header Image Text Background Overlay Color: HEX Code 52586E
-* Accent Color: HEX Code FF6700
+* Header Image Text Background Overlay Color: HEX Code 52586E - Black Coral
+* Accent Color: HEX Code FF7417 - Pumpkin
   * Login, signup, and shopping cart - a:link and a:visited
-* Accent Color: HEX Code F18F01  
+* Accent Color: HEX Code FF8B3F - Mango Tango
   * Login, signup, and shopping cart - a:hover and a:active
+  * Search Bar
+* Accent Color: HEX Code FF802C - Princeton Orange  
 
 ## Site Font Selections
 
