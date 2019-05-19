@@ -1,0 +1,20 @@
+/* This is a master stylesheet. Import reference sheets below using 'import url()'.
+See https://www.w3schools.com/cssref/pr_import_rule.asp for more details. */
+
+@import url("header.css");
+
+/* Needed for the hero header image in header.css */
+body, html {
+    margin: 0;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+a:link, a:visited {
+    color: #FF6700;
+    cursor: pointer;
+}
+
+a:hover, a:active {
+    color: #F18F01;
+}
