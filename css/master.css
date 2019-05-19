@@ -11,10 +11,10 @@ body, html {
 }
 
 a:link, a:visited {
-    color: #FF6700;
+    color: #FF7417;
     cursor: pointer;
 }
 
 a:hover, a:active {
-    color: #F18F01;
+    color: #FF8B3F;
 }
