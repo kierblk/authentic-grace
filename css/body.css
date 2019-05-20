@@ -1,0 +1,22 @@
+.clear{
+    clear:right;
+  }
+
+.photo-grid-container{
+  display: flex;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 700px;
+  padding-top: 50px;
+}
+
+.photo-grid-item img {
+  width: 300px;
+  height: 400px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+}
