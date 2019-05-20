@@ -2,6 +2,7 @@
 See https://www.w3schools.com/cssref/pr_import_rule.asp for more details. */
 
 @import url("header.css");
+@import url("navbar.css");
 
 /* Needed for the hero header image in header.css */
 body, html {
