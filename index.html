@@ -41,33 +41,35 @@
     </div>
   </div>
 
-<div class="clear"></div>
+<navigation>
+  <div class="clear"></div>
 
-  <div class="navbar" id="mynavbar">
-    <a class="active" href="#">HOME - What's New!</a>
-    <a href="#">Tops</a>
-    <a href="#">Bottoms</a>
-    <a href="#">Accessories</a>
-    <a href="#">Dresses</a>
-    <a href="#">Swimwear</a>
-    <a href="#">Intimates</a>
-    <a href="#">SALE</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-  </div>
+    <div class="navbar" id="mynavbar">
+      <a class="active" href="#">HOME - What's New!</a>
+      <a href="#">Tops</a>
+      <a href="#">Bottoms</a>
+      <a href="#">Accessories</a>
+      <a href="#">Dresses</a>
+      <a href="#">Swimwear</a>
+      <a href="#">Intimates</a>
+      <a href="#">SALE</a>
+     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+      </a>
+    </div>
   
-  <script>
-     /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-      var x = document.getElementById("myTopnav");
-      if (x.className === "topnav") {
-       x.className += " responsive";
-      } else {
-      x.className = "topnav";
+    <script>
+       /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("mynavbar");
+        if (x.className === "navbar") {
+         x.className += " responsive";
+        } else {
+        x.className = "navbar";
+        }
       }
-    }
-  </script>
+     </script>
+</navigation>
 
   <div class="clear"></div>
   <main>
