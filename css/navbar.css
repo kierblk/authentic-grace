@@ -5,6 +5,7 @@
   .navbar {
     background-color: rgba(82, 88, 110, 1.0);
     overflow: hidden;
+    margin-top: 5px;
   }
 
   /* Style the links inside the navigation bar */
