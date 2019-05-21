@@ -4,6 +4,7 @@
 
 .photo-grid-container{
   display: flex;
+  overflow: auto;
 }
 
 .photo-grid {
