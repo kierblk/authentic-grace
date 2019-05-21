@@ -24,14 +24,14 @@ li a {
     text-align: center;
     text-decoration: none;
   }
-  
+
 
 .column {
     float: left;
     width: 33.33%;
     text-align: center;
   }
-  
+
   /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -49,4 +49,3 @@ li a {
       width: 100%;
     }
   }
-  
