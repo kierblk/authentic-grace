@@ -5,7 +5,7 @@ See https://www.w3schools.com/cssref/pr_import_rule.asp for more details. */
 @import url("body.css");
 @import url("navbar.css");
 @import url("footer.css");
-
+@import url("popup.css");
 /* Needed for the hero header image in header.css */
 body, html {
     margin: 0;
