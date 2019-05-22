@@ -1,0 +1,57 @@
+.blog-row h1 {
+    color: #FF8B3F;
+}
+
+.test-right i {
+    color: #FFB35F;
+}
+
+.blog-row {
+    background-color: #dddddd;
+}
+
+.blog-column {
+    float: left;
+    
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .blog-left {
+    width: 60%;
+    font-size: 1em;
+    margin: 0 auto;
+  }
+
+  .blog-left h3 {
+      text-align: left;
+  }
+  
+  .test-right {
+    width: 30%;
+    font-size: 0.8em;
+    margin: 0 auto;
+  }
+  
+  /* Clear floats after the columns */
+  .blog-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .blog-column {
+      width: 100%;
+    }
+
+    .blog-left {
+        width: 90%;
+    }
+
+    .test-right {
+        width: 90%;
+    }
+  }

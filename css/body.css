@@ -21,3 +21,9 @@
   padding-bottom: 50px;
   justify-content: space-around;
 }
+
+.photo-grid-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
