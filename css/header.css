@@ -3,8 +3,7 @@
   border: 1px solid red;
 } */
 .top-nav-header {
-  margin: 0 2px;
-  /* border: 1px solid red; */
+  margin: 5px 15px;
   height: 40px;
   display: flex;
   flex-direction: row;
@@ -13,8 +12,6 @@
 }
 
 .top-nav-header img {
-  /* border: 1px solid red; */
-    /* object-fit: scale-down; */
     height: 40px;
 
 }
@@ -81,7 +78,7 @@
     border: 3px solid #FF8B3F ;
     border-right: none;
     padding: 5px;
-    height: 20px;
+    height: 36px;
     border-radius: 5px 0 0 5px;
     outline: none;
     color: #9DBFAF;
@@ -105,7 +102,7 @@
 
   .search-container {
     /* border: 1px solid red; */
-    margin-right: 2px;
+    margin-right: 15px;
     margin-top: 5px;
     background-color: rgba(82, 88, 110, 0.6);
   }

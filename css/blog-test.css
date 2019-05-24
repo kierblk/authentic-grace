@@ -8,6 +8,7 @@
 
 .blog-row {
     background-color: #dddddd;
+    margin: auto;
 }
 
 .blog-column {
@@ -19,9 +20,10 @@
   }
   
   .blog-left {
-    width: 60%;
+    width: 70%;
     font-size: 1em;
     margin: 0 auto;
+    padding: 40px;
   }
 
   .blog-left h3 {
@@ -32,6 +34,7 @@
     width: 30%;
     font-size: 0.8em;
     margin: 0 auto;
+    padding: 40px;
   }
   
   /* Clear floats after the columns */
