@@ -7,6 +7,7 @@ See https://www.w3schools.com/cssref/pr_import_rule.asp for more details. */
 @import url("footer.css");
 @import url("blog-test.css");
 @import url("popup.css");
+@import url("product.css");
 
 /* Needed for the hero header image in header.css */
 body, html {
