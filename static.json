@@ -2,6 +2,6 @@
   "root": "public",
   "clean_urls": false,
   "routes": {
-    "/*.html": "index.html"
+    "/**": "index.html"
   }
 }
