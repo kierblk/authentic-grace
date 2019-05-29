@@ -1,1 +1,1 @@
-web: bin/boot
+web: bundle exec puma -p $PORT
